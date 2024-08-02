@@ -11,7 +11,7 @@ spec:
         - name: name
           value: init
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-init:0.2@sha256:61f1202766cd66242c8472b16aa7fa1a20f8d9a5d674cbad27ffd4b3d067e936
+          value: quay.io/redhat-appstudio-tekton-catalog/task-init:0.2@sha256:596b7c11572bb94eb67d9ffb4375068426e2a8249ff2792ce04ad2a4bc593a63
         - name: kind
           value: task
       params:
@@ -28,7 +28,7 @@ spec:
         - name: name
           value: git-clone-oci-ta
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-git-clone-oci-ta:0.1@sha256:75ea089fefa3c81a5afd7d94ebf3674f76bd683f4e60191411dfd8adeb6c9e4b
+          value: quay.io/redhat-appstudio-tekton-catalog/task-git-clone-oci-ta:0.1@sha256:1178a65926b449c3603f7c0ecbb2d9311c0d7f1443c5164e952e7634a1d10142
         - name: kind
           value: task
       when:
@@ -57,7 +57,7 @@ spec:
         - name: name
           value: prefetch-dependencies-oci-ta
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-prefetch-dependencies-oci-ta:0.1@sha256:e179426b46bc44e083ae4b44a4c707dc61a964734e64ee1bc5f2aa6430cd8418
+          value: quay.io/redhat-appstudio-tekton-catalog/task-prefetch-dependencies-oci-ta:0.1@sha256:e68bb0c9bd591ad03584cfc84138d8ec4653b2560da22a7b2a44bea60bfd1462
         - name: kind
           value: task
       params:
@@ -80,7 +80,7 @@ spec:
         - name: name
           value: buildah-oci-ta
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-buildah-oci-ta:0.1@sha256:6aa2c19b4eac30a4188a1d7da7dab732054131a4945c2f2c47cf554605835190
+          value: quay.io/redhat-appstudio-tekton-catalog/task-buildah-oci-ta:0.1@sha256:45ce5d308ed29dacc6ad835d890265024f7f072880706f097f5294f2796fe886
         - name: kind
           value: task
       runAfter:
@@ -116,7 +116,7 @@ spec:
         - name: name
           value: source-build-oci-ta
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-source-build-oci-ta:0.1@sha256:d6e92bd97844fef4c4edf529248fa3cbc61a45a9df77a413b52e5521fe3b7498
+          value: quay.io/redhat-appstudio-tekton-catalog/task-source-build-oci-ta:0.1@sha256:9ea6c027a7e025a9a18367b2608f69e824a388807ef8d9f33742a8f9ef387045
         - name: kind
           value: task
       when:
@@ -146,7 +146,7 @@ spec:
         - name: name
           value: deprecated-image-check
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-deprecated-image-check:0.4@sha256:3f956e0cd9b0a183e4fd95e010aa668a788ef564d3af1f7aecaaf6e2ccc2ce93
+          value: quay.io/redhat-appstudio-tekton-catalog/task-deprecated-image-check:0.4@sha256:6c389c2f670975cc0dfdd07dcb33142b1668bbfd46f6af520dd0ab736c56e7e9
         - name: kind
           value: task
       when:
@@ -170,7 +170,7 @@ spec:
         - name: name
           value: clair-scan
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-clair-scan:0.1@sha256:3d9d05162d5807cde4431e80f0f126f4c19994c0c1633629a62ece9a43b966cd
+          value: quay.io/redhat-appstudio-tekton-catalog/task-clair-scan:0.1@sha256:a1bbc7354d8dc8fef41caca236bde682fc6a9230065a5537f1dc1ca4f1e39e83
         - name: kind
           value: task
       when:
@@ -192,7 +192,7 @@ spec:
         - name: name
           value: ecosystem-cert-preflight-checks
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-ecosystem-cert-preflight-checks:0.1@sha256:d468554fb6bede46f828db315eec8d8213a71cfd5bc37e934830759db7065b65
+          value: quay.io/redhat-appstudio-tekton-catalog/task-ecosystem-cert-preflight-checks:0.1@sha256:03266cc67cf4ac6c8d963a2cc7eb1e9ff024d3c861f57353ee0125ed83943807
         - name: kind
           value: task
       when:
@@ -212,7 +212,7 @@ spec:
         - name: name
           value: sast-snyk-check-oci-ta
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-sast-snyk-check-oci-ta:0.1@sha256:ef3b7feac8fac3851913b1ef1eedf53f5ee37c5a2e8a0a6eb9cc7a0fe064f995
+          value: quay.io/redhat-appstudio-tekton-catalog/task-sast-snyk-check-oci-ta:0.1@sha256:3a073208db68ab185d7e47a888cc2c382ec716aea53bb73712f3ec51f704f454
         - name: kind
           value: task
       when:
@@ -232,7 +232,7 @@ spec:
         - name: name
           value: clamav-scan
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-clamav-scan:0.1@sha256:559d281b58584386a6faaf0e6641c814f9d877432d1a13bd03076745fffffaf1
+          value: quay.io/redhat-appstudio-tekton-catalog/task-clamav-scan:0.1@sha256:7e99aad37178be72a799fcf1d154007346e038fcccb222f6937df4766a2810d2
         - name: kind
           value: task
       when:
@@ -254,7 +254,7 @@ spec:
         - name: name
           value: sbom-json-check
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-sbom-json-check:0.1@sha256:d34362be8843715b1bcdaf55fcbf1be315094e0dc840562c5cec22716a37a1fe
+          value: quay.io/redhat-appstudio-tekton-catalog/task-sbom-json-check:0.1@sha256:501181e78ec76a0a9083ffc275f5307ba5653a762259412bcffaeb314f13f8ec
         - name: kind
           value: task
       when:
