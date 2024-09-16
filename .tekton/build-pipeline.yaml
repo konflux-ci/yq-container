@@ -57,7 +57,7 @@ spec:
           - name: name
             value: prefetch-dependencies-oci-ta
           - name: bundle
-            value: quay.io/redhat-appstudio-tekton-catalog/task-prefetch-dependencies-oci-ta:0.1@sha256:fda055faf2d774dc8556afc993701379ca250a0290809de16fb5ff2402a7cd2b
+            value: quay.io/redhat-appstudio-tekton-catalog/task-prefetch-dependencies-oci-ta:0.1@sha256:601a05795b8d5cfb068f212dff5a057d3d99a949a9e3bdf8af28550ac192558e
           - name: kind
             value: task
       params:
@@ -80,7 +80,7 @@ spec:
           - name: name
             value: buildah-oci-ta
           - name: bundle
-            value: quay.io/redhat-appstudio-tekton-catalog/task-buildah-oci-ta:0.2@sha256:5d4b9de542923a2ad65ecb45bb90dbb9bec3cc7158b88b687d1b47755bbd24dd
+            value: quay.io/redhat-appstudio-tekton-catalog/task-buildah-oci-ta:0.2@sha256:f3ea33bdd07637458cbd93dc63ba42266d371a2fd5b35f00d6647ded5d23594c
           - name: kind
             value: task
       runAfter:
@@ -232,7 +232,7 @@ spec:
           - name: name
             value: clamav-scan
           - name: bundle
-            value: quay.io/redhat-appstudio-tekton-catalog/task-clamav-scan:0.1@sha256:4c1a1cd74eecfcd93222903ea28319a8068f2d5c9678e4db14e2c605831ad90c
+            value: quay.io/redhat-appstudio-tekton-catalog/task-clamav-scan:0.1@sha256:3b8d3916f2b67936e9ca859e946dc1444c29729907ffbed8e5d72ef979d9efbb
           - name: kind
             value: task
       when:
