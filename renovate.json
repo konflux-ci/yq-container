@@ -1,7 +1,6 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended",
-    "github>redhat-exd-rebuilds/renovate-config"
+  "updateNotScheduled": false,
+  "schedule": [
+    "after 5pm on sunday"
   ]
 }
