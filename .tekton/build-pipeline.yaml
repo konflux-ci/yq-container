@@ -82,7 +82,7 @@ spec:
           - name: name
             value: generate-labels
           - name: bundle
-            value: quay.io/rbean/task-generate-labels@sha256:e97d39f2a1f7fad3e9c131bbfdc6c747000128bfdbb66f5f04482fe7176082eb
+            value: quay.io/rbean/task-generate-labels@sha256:f165796bf279cbb227fb50a6a854d3f9d4b7e6c5e4c70ffd46896c718d5e3aec
           - name: kind
             value: task
       params:
