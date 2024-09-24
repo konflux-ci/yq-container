@@ -73,6 +73,8 @@ spec:
           value: $(params.output-image).prefetch
         - name: ociArtifactExpiresAfter
           value: $(params.image-expires-after)
+      runAfter:
+        - clone-repository
     - name: generate-labels
       taskRef:
         resolver: bundles
@@ -80,7 +82,7 @@ spec:
           - name: name
             value: generate-labels
           - name: bundle
-            value: quay.io/rbean/task-generate-labels@sha256:5d6c32a7ee26d9302cf3dbe32a5377079dabd04adcbb28c376132e782f4f892b
+            value: quay.io/rbean/task-generate-labels@sha256:e97d39f2a1f7fad3e9c131bbfdc6c747000128bfdbb66f5f04482fe7176082eb
           - name: kind
             value: task
       params:
@@ -88,6 +90,8 @@ spec:
           value: '["release=$EPOCH", "source-date-epoch=$SOURCE_DATE_EPOCH"]'
         - name: source-date-epoch
           value: "$(tasks.clone-repository.results.commit-timestamp)"
+      runAfter:
+        - clone-repository
     - name: build-container
       params:
         - name: ADDITIONAL_LABELS
