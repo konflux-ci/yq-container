@@ -102,7 +102,7 @@ spec:
           - name: name
             value: buildah-oci-ta
           - name: bundle
-            value: quay.io/rbean/task-buildah-oci-ta@sha256:11e8ead60e60281d019d4250a93f82eb696dcba4a7f23451c4b0112e4a16bcdb
+            value: quay.io/rbean/task-buildah-oci-ta@sha256:5f2b629da8635a519cf43a4cc684fb35590f7a74423760b3027fe4713ac4008a
           - name: kind
             value: task
       runAfter:
