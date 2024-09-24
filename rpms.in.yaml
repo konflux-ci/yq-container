@@ -1,4 +1,4 @@
 contentOrigin:
   repofiles:
     - ./ubi.repo
-packages: [golang]
+packages: [golang, gettext]
