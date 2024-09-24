@@ -53,13 +53,13 @@ arches:
     name: golang-src
     evr: 1.21.13-3.el9_4
     sourcerpm: golang-1.21.13-3.el9_4.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.35.1.el9_4.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.37.1.el9_4.x86_64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 6735933
-    checksum: sha256:6ec3447f8729b9ea38da0e705299326203bbb0c7704db58d54ac07ba0745596d
+    size: 6717409
+    checksum: sha256:5d558e9e4e9beefa3b9798beccf3e306f2771ed8676eb67d12cc36f8a1a62241
     name: kernel-headers
-    evr: 5.14.0-427.35.1.el9_4
-    sourcerpm: kernel-5.14.0-427.35.1.el9_4.src.rpm
+    evr: 5.14.0-427.37.1.el9_4
+    sourcerpm: kernel-5.14.0-427.37.1.el9_4.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libmpc-1.2.1-4.el9.x86_64.rpm
     repoid: ubi-9-appstream-rpms
     size: 66075
