@@ -80,14 +80,12 @@ spec:
           - name: name
             value: generate-labels
           - name: bundle
-            value: quay.io/rbean/task-generate-labels:0.1@sha256:7927c0043aea9a66de7a63bc720a28d80027334703da35b34523a7dba32d27af
+            value: quay.io/rbean/task-generate-labels@sha256:5d6c32a7ee26d9302cf3dbe32a5377079dabd04adcbb28c376132e782f4f892b
           - name: kind
             value: task
       params:
         - name: label-templates
-          value:
-            - "release=$EPOCH"
-            - "source-date-epoch=$SOURCE_DATE_EPOCH"
+          value: '["release=$EPOCH", "source-date-epoch=$SOURCE_DATE_EPOCH"]'
         - name: source-date-epoch
           value: "$(tasks.clone-repository.results.commit-timestamp)"
     - name: build-container
