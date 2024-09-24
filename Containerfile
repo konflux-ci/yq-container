@@ -12,6 +12,7 @@ RUN ./scripts/acceptance.sh
 
 # Rebase on ubi9
 FROM registry.access.redhat.com/ubi9:latest@sha256:9e6a89ab2a9224712391c77fab2ab01009e387aff42854826427aaf18b98b1ff
+RUN dnf -y install gettext
 
 COPY --from=builder /go/src/mikefarah/yq/yq /usr/bin/yq
 
