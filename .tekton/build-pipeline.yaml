@@ -73,18 +73,39 @@ spec:
           value: $(params.output-image).prefetch
         - name: ociArtifactExpiresAfter
           value: $(params.image-expires-after)
+    - name: generate-labels
+      taskRef:
+        resolver: bundles
+        params:
+          - name: name
+            value: generate-labels
+          - name: bundle
+            value: quay.io/rbean/task-generate-labels@sha256:5e86e28b69550b940295ad4f12f2f203c8e740e708f818a5b8c694370ae50f6c
+          - name: kind
+            value: task
+      params:
+        - name: LABEL_TEMPLATES
+          value:
+            - "release=$EPOCH"
+            - "source-date-epoch=$SOURCE_DATE_EPOCH"
+        - name: SOURCE_DATE_EPOCH
+          value: "$(tasks.clone-repository.results.commit-timestamp)"
     - name: build-container
+      params:
+        - name: ADDITIONAL_LABELS
+          value: "$(tasks.generate-labels.results.labels)"
       taskRef:
         resolver: bundles
         params:
           - name: name
             value: buildah-oci-ta
           - name: bundle
-            value: quay.io/redhat-appstudio-tekton-catalog/task-buildah-oci-ta:0.2@sha256:04de9884496c6017b878b665e4bce8374168de19aef0b8cc9395c8d3e100f65a
+            value: quay.io/rbean/task-buildah-oci-ta@sha256:4a5f0c2d2400a88cb358023822afb3913d03c0a770c0c9474263e5f8646f6676
           - name: kind
             value: task
       runAfter:
-        - clone-repository
+        - prefetch-dependencies
+        - generate-labels
       when:
         - input: "$(tasks.init.results.build)"
           operator: in
