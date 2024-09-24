@@ -80,15 +80,15 @@ spec:
           - name: name
             value: generate-labels
           - name: bundle
-            value: quay.io/rbean/task-generate-labels@sha256:5e86e28b69550b940295ad4f12f2f203c8e740e708f818a5b8c694370ae50f6c
+            value: quay.io/rbean/task-generate-labels:0.1@sha256:7927c0043aea9a66de7a63bc720a28d80027334703da35b34523a7dba32d27af
           - name: kind
             value: task
       params:
-        - name: LABEL_TEMPLATES
+        - name: label-templates
           value:
             - "release=$EPOCH"
             - "source-date-epoch=$SOURCE_DATE_EPOCH"
-        - name: SOURCE_DATE_EPOCH
+        - name: source-date-epoch
           value: "$(tasks.clone-repository.results.commit-timestamp)"
     - name: build-container
       params:
@@ -100,7 +100,7 @@ spec:
           - name: name
             value: buildah-oci-ta
           - name: bundle
-            value: quay.io/rbean/task-buildah-oci-ta@sha256:4a5f0c2d2400a88cb358023822afb3913d03c0a770c0c9474263e5f8646f6676
+            value: quay.io/rbean/task-buildah-oci-ta@sha256:d920be944725e01662002c86efc48d515e2fe9aa62741cf648304855b6fce237
           - name: kind
             value: task
       runAfter:
