@@ -87,7 +87,7 @@ spec:
             value: task
       params:
         - name: label-templates
-          value: '["release=$EPOCH", "source-date-epoch=$SOURCE_DATE_EPOCH"]'
+          value: '["release=$ACTUAL_DATE_EPOCH", "source-date-epoch=$SOURCE_DATE_EPOCH"]'
         - name: source-date-epoch
           value: "$(tasks.clone-repository.results.commit-timestamp)"
       runAfter:
