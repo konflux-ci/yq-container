@@ -93,9 +93,6 @@ spec:
       runAfter:
         - clone-repository
     - name: build-container
-      params:
-        - name: ADDITIONAL_LABELS
-          value: "$(tasks.generate-labels.results.labels)"
       taskRef:
         resolver: bundles
         params:
@@ -132,6 +129,8 @@ spec:
           value: $(tasks.prefetch-dependencies.results.SOURCE_ARTIFACT)
         - name: CACHI2_ARTIFACT
           value: $(tasks.prefetch-dependencies.results.CACHI2_ARTIFACT)
+        - name: ADDITIONAL_LABELS
+          value: "$(tasks.generate-labels.results.labels)"
     - name: build-source-image
       taskRef:
         resolver: bundles
