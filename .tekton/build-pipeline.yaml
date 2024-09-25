@@ -82,7 +82,7 @@ spec:
           - name: name
             value: generate-labels
           - name: bundle
-            value: quay.io/rbean/task-generate-labels:0.1@sha256:b0b082a9c112a2cb6e54df853f71ecc279accd8addb8936b027b04a888aa3c96
+            value: quay.io/rbean/task-generate-labels:0.1@sha256:6a07da4e9e537cc2031079963149bc032938b82b5c38dfcdc2d5dc852d268900
           - name: kind
             value: task
       params:
@@ -99,7 +99,7 @@ spec:
           - name: name
             value: buildah-oci-ta
           - name: bundle
-            value: quay.io/rbean/task-buildah-oci-ta@sha256:5f2b629da8635a519cf43a4cc684fb35590f7a74423760b3027fe4713ac4008a
+            value: quay.io/rbean/task-buildah-oci-ta:0.2@sha256:1b6a5cb9f48aedaac6aa08b83bd8758e83212a0b5c5f0c1537a15fa155d00198
           - name: kind
             value: task
       runAfter:
@@ -130,7 +130,7 @@ spec:
         - name: CACHI2_ARTIFACT
           value: $(tasks.prefetch-dependencies.results.CACHI2_ARTIFACT)
         - name: ADDITIONAL_LABELS
-          value: "$(tasks.generate-labels.results.labels)"
+          value: ["$(tasks.generate-labels.results.labels[*])"]
     - name: build-source-image
       taskRef:
         resolver: bundles
