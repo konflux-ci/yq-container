@@ -131,7 +131,6 @@ spec:
           value: $(tasks.prefetch-dependencies.results.CACHI2_ARTIFACT)
         - name: ADDITIONAL_LABELS
           value: ["$(tasks.generate-labels.results.labels[*])"]
-          type: array
     - name: build-source-image
       taskRef:
         resolver: bundles
