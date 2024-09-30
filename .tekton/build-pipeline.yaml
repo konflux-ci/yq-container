@@ -80,7 +80,7 @@ spec:
           - name: name
             value: buildah-oci-ta
           - name: bundle
-            value: quay.io/redhat-appstudio-tekton-catalog/task-buildah-oci-ta:0.2@sha256:04de9884496c6017b878b665e4bce8374168de19aef0b8cc9395c8d3e100f65a
+            value: quay.io/redhat-appstudio-tekton-catalog/task-buildah-oci-ta:0.2@sha256:d03ef3c36bd0c972980a2b16045c9edbf95ac0d55b6f42d6510d8e586b92f507
           - name: kind
             value: task
       runAfter:
@@ -232,7 +232,7 @@ spec:
           - name: name
             value: clamav-scan
           - name: bundle
-            value: quay.io/redhat-appstudio-tekton-catalog/task-clamav-scan:0.1@sha256:8d7ae9da4c0e28262c965b0557fc657ca342b474611d947655463ce9d0cfcb54
+            value: quay.io/redhat-appstudio-tekton-catalog/task-clamav-scan:0.1@sha256:2da8996017d1fbde1bb7f207a015679fb1796628f5cb372df36186931da84e78
           - name: kind
             value: task
       when:
