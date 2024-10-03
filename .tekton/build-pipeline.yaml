@@ -80,7 +80,7 @@ spec:
           - name: name
             value: buildah-oci-ta
           - name: bundle
-            value: quay.io/redhat-appstudio-tekton-catalog/task-buildah-oci-ta:0.2@sha256:d03ef3c36bd0c972980a2b16045c9edbf95ac0d55b6f42d6510d8e586b92f507
+            value: quay.io/rbean/task-buildah-oci-ta:0.2@sha256:f100e7c03d0f747b3629e2315597f6fc10b534d65c55f70da36422968fce8860
           - name: kind
             value: task
       runAfter:
@@ -109,6 +109,10 @@ spec:
           value: $(tasks.prefetch-dependencies.results.SOURCE_ARTIFACT)
         - name: CACHI2_ARTIFACT
           value: $(tasks.prefetch-dependencies.results.CACHI2_ARTIFACT)
+        - name: ADDITIONAL_LABELS
+          value:
+            - foo=bar
+            - build-date=amazing
     - name: build-source-image
       taskRef:
         resolver: bundles
