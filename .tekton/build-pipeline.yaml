@@ -80,7 +80,7 @@ spec:
           - name: name
             value: buildah-oci-ta
           - name: bundle
-            value: quay.io/rbean/task-buildah-oci-ta:0.2@sha256:f100e7c03d0f747b3629e2315597f6fc10b534d65c55f70da36422968fce8860
+            value: quay.io/rbean/task-buildah-oci-ta:0.2@sha256:1b848a068498faa1a8da0c3b496ded2655a492025327027058d1987e50ea1683
           - name: kind
             value: task
       runAfter:
@@ -109,10 +109,8 @@ spec:
           value: $(tasks.prefetch-dependencies.results.SOURCE_ARTIFACT)
         - name: CACHI2_ARTIFACT
           value: $(tasks.prefetch-dependencies.results.CACHI2_ARTIFACT)
-        - name: ADDITIONAL_LABELS
-          value:
-            - foo=bar
-            - build-date=amazing
+        - name: LABELS
+          value: $(tasks.generate-labels.results.labels)
     - name: build-source-image
       taskRef:
         resolver: bundles
@@ -287,6 +285,26 @@ spec:
             value: rpms-signature-scan
           - name: bundle
             value: quay.io/konflux-ci/tekton-catalog/task-rpms-signature-scan:0.1@sha256:8e3515fdc0bbc0bcac994482a2396a8cd23e6a6fa9efaf3ec715ee312a376777
+          - name: kind
+            value: task
+        resolver: bundles
+    - name: generate-labels
+      params:
+      - name: label-templates
+        value: 
+           - "release=$SOURCE_DATE_EPOCH"
+           - "build-date=$SOURCE_DATE"
+           - "short-commit=$(tasks.clone-repository.results.short-commit)"
+      - name: source-date-epoch
+        value: '$(tasks.clone-repository.results.commit-timestamp)'
+      runAfter:
+      - clone-repository
+      taskRef:
+        params:
+          - name: name
+            value: generate-labels
+          - name: bundle
+            value: quay.io/rbean/task-generate-labels:0.1@sha256:ab96744e18578fb7043e6531ce91bd8e7bea90aed8d8963accc58151e189d7b0
           - name: kind
             value: task
         resolver: bundles
