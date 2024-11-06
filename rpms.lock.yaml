@@ -123,34 +123,6 @@ arches:
     name: gettext-libs
     evr: 0.21-8.el9
     sourcerpm: gettext-0.21-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-2.34-100.el9_4.4.x86_64.rpm
-    repoid: ubi-9-baseos-rpms
-    size: 2066882
-    checksum: sha256:f2ab157525ff3ab2d4e6fa0d77fa58e0d6174a167a6c378d9302f146926f6bdb
-    name: glibc
-    evr: 2.34-100.el9_4.4
-    sourcerpm: glibc-2.34-100.el9_4.4.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-common-2.34-100.el9_4.4.x86_64.rpm
-    repoid: ubi-9-baseos-rpms
-    size: 314113
-    checksum: sha256:85f9311225af5fdd235f23b63f243058aeee9b65b14c55a2d9bbdd1409de8970
-    name: glibc-common
-    evr: 2.34-100.el9_4.4
-    sourcerpm: glibc-2.34-100.el9_4.4.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.34-100.el9_4.4.x86_64.rpm
-    repoid: ubi-9-baseos-rpms
-    size: 674961
-    checksum: sha256:404ea4f5108366a13109b46230ced6e7fe96fdf6aa90ea2bcf9b63f25ba1a702
-    name: glibc-langpack-en
-    evr: 2.34-100.el9_4.4
-    sourcerpm: glibc-2.34-100.el9_4.4.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-100.el9_4.4.x86_64.rpm
-    repoid: ubi-9-baseos-rpms
-    size: 21129
-    checksum: sha256:1e85eceb7b60d23c1f9f93373e3a03d1938fe8362ff5dca9889226984149570c
-    name: glibc-minimal-langpack
-    evr: 2.34-100.el9_4.4
-    sourcerpm: glibc-2.34-100.el9_4.4.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.x86_64.rpm
     repoid: ubi-9-baseos-rpms
     size: 38387
