@@ -80,7 +80,7 @@ spec:
           - name: name
             value: buildah-oci-ta
           - name: bundle
-            value: quay.io/redhat-appstudio-tekton-catalog/task-buildah-oci-ta:0.2@sha256:a9dbd76c726ce2bbeb1b37011baa72622db270caec747053c1c77fc9eaa0e075
+            value: quay.io/rbean/task-buildah-oci-ta:0.2@sha256:cadcec45390319327f8e2b433b699687d347d9d9a20d6497054955aba931a392
           - name: kind
             value: task
       runAfter:
