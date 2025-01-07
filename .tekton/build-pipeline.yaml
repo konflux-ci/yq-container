@@ -80,7 +80,7 @@ spec:
           - name: name
             value: buildah-oci-ta
           - name: bundle
-            value: quay.io/redhat-appstudio-tekton-catalog/task-buildah-oci-ta:0.2@sha256:cef2395e45c941eab6818a696aad558eba33a00f09cac470dc958f7e97378d6b
+            value: quay.io/redhat-appstudio-tekton-catalog/task-buildah-oci-ta:0.2@sha256:2f9374705bb50a3441f5606ee0604d79fd3da08bb9108ffa9c1749e3e4bdba32
           - name: kind
             value: task
       runAfter:
@@ -247,28 +247,6 @@ spec:
           value: "$(tasks.build-container.results.IMAGE_DIGEST)"
         - name: image-url
           value: "$(tasks.build-container.results.IMAGE_URL)"
-    - name: sbom-json-check
-      taskRef:
-        resolver: bundles
-        params:
-          - name: name
-            value: sbom-json-check
-          - name: bundle
-            value: quay.io/redhat-appstudio-tekton-catalog/task-sbom-json-check:0.2@sha256:a4a919b9c16404fcd117a2fa14bdea8fd5d0b381e7568e85516073087ffa3811
-          - name: kind
-            value: task
-      when:
-        - input: "$(params.skip-checks)"
-          operator: in
-          values:
-            - 'false'
-      runAfter:
-        - build-container
-      params:
-        - name: IMAGE_URL
-          value: "$(tasks.build-container.results.IMAGE_URL)"
-        - name: IMAGE_DIGEST
-          value: "$(tasks.build-container.results.IMAGE_DIGEST)"
     - name: rpms-signature-scan
       params:
       - name: image-url

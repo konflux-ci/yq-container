@@ -2,3 +2,4 @@ contentOrigin:
   repofiles:
     - ./ubi.repo
 packages: [golang, gettext]
+arches: [x86_64]
