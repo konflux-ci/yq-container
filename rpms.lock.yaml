@@ -53,13 +53,13 @@ arches:
     name: golang-src
     evr: 1.22.9-2.el9_5
     sourcerpm: golang-1.22.9-2.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-503.23.1.el9_5.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-503.23.2.el9_5.aarch64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 3889217
-    checksum: sha256:aa9b4140dfc935fe71e313de3aaffe4fb11bba15936eda11fcada077fd80f49e
+    size: 3889517
+    checksum: sha256:00e33e317169bcdece4cf024919a8c78472d8c302ddbc48489fd48eabe9ce887
     name: kernel-headers
-    evr: 5.14.0-503.23.1.el9_5
-    sourcerpm: kernel-5.14.0-503.23.1.el9_5.src.rpm
+    evr: 5.14.0-503.23.2.el9_5
+    sourcerpm: kernel-5.14.0-503.23.2.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libasan-11.5.0-2.el9.aarch64.rpm
     repoid: ubi-9-appstream-rpms
     size: 417138
@@ -814,13 +814,13 @@ arches:
     name: golang-src
     evr: 1.22.9-2.el9_5
     sourcerpm: golang-1.22.9-2.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-503.23.1.el9_5.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-503.23.2.el9_5.x86_64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 3927721
-    checksum: sha256:e0c207289e01e82714555131eab5d341e18a71b0e0b77cce50ccad70859d40f7
+    size: 3928049
+    checksum: sha256:09e80c23581375ba3f26ef443862f65a3bbab776638c9a6d847d76d1331e1ccd
     name: kernel-headers
-    evr: 5.14.0-503.23.1.el9_5
-    sourcerpm: kernel-5.14.0-503.23.1.el9_5.src.rpm
+    evr: 5.14.0-503.23.2.el9_5
+    sourcerpm: kernel-5.14.0-503.23.2.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libmpc-1.2.1-4.el9.x86_64.rpm
     repoid: ubi-9-appstream-rpms
     size: 66075
