@@ -144,20 +144,6 @@ arches:
     name: libatomic
     evr: 11.5.0-5.el9_5
     sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libgcc-11.5.0-5.el9_5.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 83463
-    checksum: sha256:3825a3137d6d3d8da38df5985581fd160a472eef8b929bb02f6e51a49ee6343e
-    name: libgcc
-    evr: 11.5.0-5.el9_5
-    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libgomp-11.5.0-5.el9_5.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 267717
-    checksum: sha256:417eeb095770944a0c25551771d9ae2ea367b3c979eba9da8a529957f49bafa5
-    name: libgomp
-    evr: 11.5.0-5.el9_5
-    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 38310
@@ -172,20 +158,6 @@ arches:
     name: make
     evr: 1:4.3-8.el9
     sourcerpm: make-4.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/o/openssl-3.2.2-6.el9_5.1.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 1398689
-    checksum: sha256:f914250a9ef52968e27af0f0e2520745df4443dc354367bec54dd06b4a2da60b
-    name: openssl
-    evr: 1:3.2.2-6.el9_5.1
-    sourcerpm: openssl-3.2.2-6.el9_5.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/o/openssl-libs-3.2.2-6.el9_5.1.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 2085943
-    checksum: sha256:fb9062e4635959a929f278002c5ff1bf35323987538c71fa86442c980eab4a44
-    name: openssl-libs
-    evr: 1:3.2.2-6.el9_5.1
-    sourcerpm: openssl-3.2.2-6.el9_5.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/pkgconf-1.7.3-10.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 45196
@@ -423,20 +395,6 @@ arches:
     name: libatomic
     evr: 11.5.0-5.el9_5
     sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/l/libgcc-11.5.0-5.el9_5.ppc64le.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 78032
-    checksum: sha256:8c96e34373c8068f489b07f0e1dec9731b9d600d6125839b2367211c491ec01a
-    name: libgcc
-    evr: 11.5.0-5.el9_5
-    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/l/libgomp-11.5.0-5.el9_5.ppc64le.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 281190
-    checksum: sha256:5d693c13bc37de1de427976bcc61375d5bbb5880c1ecef9d9db22c300cae8ab3
-    name: libgomp
-    evr: 11.5.0-5.el9_5
-    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 42712
@@ -451,20 +409,6 @@ arches:
     name: make
     evr: 1:4.3-8.el9
     sourcerpm: make-4.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/o/openssl-3.2.2-6.el9_5.1.ppc64le.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 1422952
-    checksum: sha256:56283cbf84234ec9256fb68e2d2669bc5799862eb2ee40521b8ac59044567835
-    name: openssl
-    evr: 1:3.2.2-6.el9_5.1
-    sourcerpm: openssl-3.2.2-6.el9_5.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/o/openssl-libs-3.2.2-6.el9_5.1.ppc64le.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 2320865
-    checksum: sha256:8e9f1ff32873b3531cd38d9583fe20526c790066785312301ea87ebbf980d8ce
-    name: openssl-libs
-    evr: 1:3.2.2-6.el9_5.1
-    sourcerpm: openssl-3.2.2-6.el9_5.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/p/pkgconf-1.7.3-10.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 46315
@@ -709,20 +653,6 @@ arches:
     name: libatomic
     evr: 11.5.0-5.el9_5
     sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/l/libgcc-11.5.0-5.el9_5.s390x.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 71563
-    checksum: sha256:b8234dacbc0032cc8e074aed0e9ad8989e9d9a05802832b3e2c004954270536e
-    name: libgcc
-    evr: 11.5.0-5.el9_5
-    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/l/libgomp-11.5.0-5.el9_5.s390x.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 265956
-    checksum: sha256:1b87617f48cfe6a6280e2da37d3a6cdd30c8c3874e1a36a4b5d252acf80e113e
-    name: libgomp
-    evr: 11.5.0-5.el9_5
-    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 37876
@@ -737,20 +667,6 @@ arches:
     name: make
     evr: 1:4.3-8.el9
     sourcerpm: make-4.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/o/openssl-3.2.2-6.el9_5.1.s390x.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 1407537
-    checksum: sha256:0a24289ee6324c2ecd6edad913f8ecfcfc6db43fbf6fed65458141e3ec0c104f
-    name: openssl
-    evr: 1:3.2.2-6.el9_5.1
-    sourcerpm: openssl-3.2.2-6.el9_5.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/o/openssl-libs-3.2.2-6.el9_5.1.s390x.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 1830531
-    checksum: sha256:3d58f9488bc2a5113d852d6c78df07e414f6d95bb75f1ff78b7530bafdf1eb02
-    name: openssl-libs
-    evr: 1:3.2.2-6.el9_5.1
-    sourcerpm: openssl-3.2.2-6.el9_5.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/p/pkgconf-1.7.3-10.el9.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 45258
@@ -968,20 +884,6 @@ arches:
     name: gettext-libs
     evr: 0.21-8.el9
     sourcerpm: gettext-0.21-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libgcc-11.5.0-5.el9_5.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 89621
-    checksum: sha256:6f7bc4ed734b01d36f9dba66f34f610f2f39e5280588814a666b4d4be2dd8807
-    name: libgcc
-    evr: 11.5.0-5.el9_5
-    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libgomp-11.5.0-5.el9_5.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 269396
-    checksum: sha256:da7af36960df4b59178f4d7c42353d48c53fbe231e7e62d734a4319748f897a9
-    name: libgomp
-    evr: 11.5.0-5.el9_5
-    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 38387
@@ -996,20 +898,6 @@ arches:
     name: make
     evr: 1:4.3-8.el9
     sourcerpm: make-4.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/o/openssl-3.2.2-6.el9_5.1.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 1420999
-    checksum: sha256:f379686df99db814e30568a896b417278775fc96864ac6d2660bf48ef94309e3
-    name: openssl
-    evr: 1:3.2.2-6.el9_5.1
-    sourcerpm: openssl-3.2.2-6.el9_5.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/o/openssl-libs-3.2.2-6.el9_5.1.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 2218318
-    checksum: sha256:287d11706d44a53455ed8ac62faab4c4a0b8c0fa5e367adf122c7a76c6ddbbb8
-    name: openssl-libs
-    evr: 1:3.2.2-6.el9_5.1
-    sourcerpm: openssl-3.2.2-6.el9_5.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/pkgconf-1.7.3-10.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 45675
