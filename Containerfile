@@ -26,4 +26,12 @@ RUN chown -R yq:yq /workdir
 
 USER yq
 
+LABEL name=yq \
+      com.redhat.component=yq \
+      summary="A rebuild of mikefarah/yq available at quay.io/konflux-ci/yq:latest" \
+      description="A rebuild of mikefarah/yq available at quay.io/konflux-ci/yq:latest" \
+      io.k8s.description="A rebuild of mikefarah/yq available at quay.io/konflux-ci/yq:latest" \
+      io.k8s.display-name=yq \
+      io.openshift.tags=yq
+
 ENTRYPOINT ["/usr/bin/yq"]
