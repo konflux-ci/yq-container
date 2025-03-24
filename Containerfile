@@ -16,6 +16,9 @@ RUN dnf -y install gettext
 
 COPY --from=builder /go/src/mikefarah/yq/yq /usr/bin/yq
 
+RUN mkdir /licenses/
+COPY yq/LICENSE /licenses/LICENSE
+
 WORKDIR /workdir
 
 RUN \
@@ -32,6 +35,7 @@ LABEL name=yq \
       description="A rebuild of mikefarah/yq available at quay.io/konflux-ci/yq:latest" \
       io.k8s.description="A rebuild of mikefarah/yq available at quay.io/konflux-ci/yq:latest" \
       io.k8s.display-name=yq \
-      io.openshift.tags=yq
+      io.openshift.tags=yq \
+      license=MIT
 
 ENTRYPOINT ["/usr/bin/yq"]
