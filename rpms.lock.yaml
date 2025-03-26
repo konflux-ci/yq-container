@@ -53,13 +53,13 @@ arches:
     name: golang-src
     evr: 1.22.9-2.el9_5
     sourcerpm: golang-1.22.9-2.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-503.33.1.el9_5.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-503.34.1.el9_5.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 3900913
-    checksum: sha256:651ca9eb7ec3f514074cf7c4974f3ce83a58d8747d92dbeb00bb452fd462fd58
+    size: 3901117
+    checksum: sha256:db92d19a7caaf6800014e7fede11141f781fe7a4aed36e621334f3cd3f06022c
     name: kernel-headers
-    evr: 5.14.0-503.33.1.el9_5
-    sourcerpm: kernel-5.14.0-503.33.1.el9_5.src.rpm
+    evr: 5.14.0-503.34.1.el9_5
+    sourcerpm: kernel-5.14.0-503.34.1.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libasan-11.5.0-5.el9_5.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 413819
@@ -137,34 +137,6 @@ arches:
     name: gettext-libs
     evr: 0.21-8.el9
     sourcerpm: gettext-0.21-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-2.34-125.el9_5.3.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 1797593
-    checksum: sha256:34d7c08796ddddf49e859bc830e7711b06f8f4bb8d84c5b7ff3fc49d9b8fd5c3
-    name: glibc
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-common-2.34-125.el9_5.3.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 300295
-    checksum: sha256:82c67b890ab3094110fe667b50d6b42e748cf09babb0f6693f4af71c48a939a5
-    name: glibc-common
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-langpack-en-2.34-125.el9_5.3.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 671094
-    checksum: sha256:56da1af4b4d9998a4291eeba37a42ff3b1f61dfeba3532bbfddc80b629575f09
-    name: glibc-langpack-en
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-125.el9_5.3.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 16933
-    checksum: sha256:544eb08746c347e6529c481f6248000f5d0c1396f3dbe9077431604c99d496f6
-    name: glibc-minimal-langpack
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libatomic-11.5.0-5.el9_5.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 30699
@@ -332,13 +304,13 @@ arches:
     name: golang-src
     evr: 1.22.9-2.el9_5
     sourcerpm: golang-1.22.9-2.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-503.33.1.el9_5.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-503.34.1.el9_5.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 3922913
-    checksum: sha256:0aace51e9154a4bee3ca32d09b948e887a6e71b4b2ad89f40c86e7d224c6b438
+    size: 3923073
+    checksum: sha256:659c3676338bd3ea88bf6192ebe140aefada7b5944e0b7869ae37e830b6b785d
     name: kernel-headers
-    evr: 5.14.0-503.33.1.el9_5
-    sourcerpm: kernel-5.14.0-503.33.1.el9_5.src.rpm
+    evr: 5.14.0-503.34.1.el9_5
+    sourcerpm: kernel-5.14.0-503.34.1.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libasan-11.5.0-5.el9_5.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 445773
@@ -416,34 +388,6 @@ arches:
     name: gettext-libs
     evr: 0.21-8.el9
     sourcerpm: gettext-0.21-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/g/glibc-2.34-125.el9_5.3.ppc64le.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 2862480
-    checksum: sha256:c490a3dde20109ffa92b56c4cdc2abc3da71a0726ba4df5002cdbabe5a567cc9
-    name: glibc
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/g/glibc-common-2.34-125.el9_5.3.ppc64le.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 325441
-    checksum: sha256:8ca779283db749b73a550bf269f8fc587d5f9c253775946a21c10c93d3ee392e
-    name: glibc-common
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/g/glibc-langpack-en-2.34-125.el9_5.3.ppc64le.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 671010
-    checksum: sha256:192139926c12bf7a0e932d5260d3efbe25d38f5720cd36bb042c550767fc5431
-    name: glibc-langpack-en
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/g/glibc-minimal-langpack-2.34-125.el9_5.3.ppc64le.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 16957
-    checksum: sha256:f5326f08c50bc138e700cb55030e8a15696e8275fc56bf14e1918de23778c0ea
-    name: glibc-minimal-langpack
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/l/libatomic-11.5.0-5.el9_5.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 29806
@@ -632,13 +576,13 @@ arches:
     name: golang-src
     evr: 1.22.9-2.el9_5
     sourcerpm: golang-1.22.9-2.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-503.33.1.el9_5.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-503.34.1.el9_5.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 3930841
-    checksum: sha256:0bb686f442617ebbfe4a889f492ba4b4b5b856d9a73fa93b788ce46f12082c77
+    size: 3931145
+    checksum: sha256:7bf059f2b875cf2041e1de9a49bdf88b3349c3b1104bf1a25220c7773364bbbc
     name: kernel-headers
-    evr: 5.14.0-503.33.1.el9_5
-    sourcerpm: kernel-5.14.0-503.33.1.el9_5.src.rpm
+    evr: 5.14.0-503.34.1.el9_5
+    sourcerpm: kernel-5.14.0-503.34.1.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libasan-11.5.0-5.el9_5.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 415917
@@ -702,34 +646,6 @@ arches:
     name: elfutils-debuginfod-client
     evr: 0.191-4.el9
     sourcerpm: elfutils-0.191-4.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/g/glibc-2.34-125.el9_5.3.s390x.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 1773830
-    checksum: sha256:d4b47a751b3a560204d15b286964fc5cbcec3a86e8bd16b1a759ccace0a8101c
-    name: glibc
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/g/glibc-common-2.34-125.el9_5.3.s390x.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 313327
-    checksum: sha256:437784885badf93bcb8619869bf837a74699c4954575ef4186d3dcab1cb82cb1
-    name: glibc-common
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/g/glibc-langpack-en-2.34-125.el9_5.3.s390x.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 621674
-    checksum: sha256:a5adb94e8072ac565c889d444847fc9150fbd4e7029dc6a460bb0a80482446c2
-    name: glibc-langpack-en
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/g/glibc-minimal-langpack-2.34-125.el9_5.3.s390x.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 16941
-    checksum: sha256:ae7b17ac96bf527d76807f99453e46dabe0596f6f9cbbb49d2b39537a1886742
-    name: glibc-minimal-langpack
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/l/libatomic-11.5.0-5.el9_5.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 27863
@@ -898,13 +814,13 @@ arches:
     name: golang-src
     evr: 1.22.9-2.el9_5
     sourcerpm: golang-1.22.9-2.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-503.33.1.el9_5.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-503.34.1.el9_5.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 3939413
-    checksum: sha256:a1f3794548d4ffbbfb167d816698715e7f364f7af88153cd6a30d43012a789c9
+    size: 3939641
+    checksum: sha256:b8977e764e4e74aa901d5c883e527cc76cf809946750cf8dae1f3a769542e59e
     name: kernel-headers
-    evr: 5.14.0-503.33.1.el9_5
-    sourcerpm: kernel-5.14.0-503.33.1.el9_5.src.rpm
+    evr: 5.14.0-503.34.1.el9_5
+    sourcerpm: kernel-5.14.0-503.34.1.el9_5.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libmpc-1.2.1-4.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 66075
@@ -968,34 +884,6 @@ arches:
     name: gettext-libs
     evr: 0.21-8.el9
     sourcerpm: gettext-0.21-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-2.34-125.el9_5.3.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 2064994
-    checksum: sha256:ed99fdb1e7e6961738188aedda701f0b3937455abfb2d493cd852d5b0c65e36e
-    name: glibc
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-common-2.34-125.el9_5.3.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 310308
-    checksum: sha256:3987d332cfe660906639782722df749c04c77bda9da50c91ed1678c5acafc01d
-    name: glibc-common
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.34-125.el9_5.3.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 671162
-    checksum: sha256:e98503528366265941e770230960255f1084d5b1b04def9af7f433e51f5cb3a0
-    name: glibc-langpack-en
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-125.el9_5.3.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 16969
-    checksum: sha256:12d6f54995345d418c1c94832b4bdf278357a2c6cf79554b43084f6d45bd1efb
-    name: glibc-minimal-langpack
-    evr: 2.34-125.el9_5.3
-    sourcerpm: glibc-2.34-125.el9_5.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 38387
