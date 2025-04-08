@@ -33,8 +33,12 @@ spec:
       value:
         - linux/x86_64
         - linux/arm64
-        - linux/ppc64le
-        - linux/s390x
+    - name: reused-build-references
+      value:
+        # ppc64le
+        - quay.io/konflux-ci/yq@sha256:8abed47ea008379c8966da11faadf03d386b74fd735906768854b044ff944401
+        # s390x
+        - quay.io/konflux-ci/yq@sha256:a9ce23d5b742dbfcd08292cc7ef5227109f0982b0b107659ae212f8495175e76
   pipelineRef:
     name: build-pipeline
   workspaces:
