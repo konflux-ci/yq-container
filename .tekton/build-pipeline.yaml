@@ -166,9 +166,9 @@ spec:
         - name: ociArtifactExpiresAfter
           value: $(params.image-expires-after)
         - name: SCRIPT_RUNNER_IMAGE 
-          value: quay.io/my-script-runner-image:latest@sha256:digest
+          value: quay.io/konflux-ci/tekton-catalog/task-git-clone-oci-ta:0.1@sha256:8ecf57d5a6697ce709bee65b62781efe79a10b0c2b95e05576442b67fbd61744
         - name: SCRIPT
-          value: my-script 
+          value: submodule.sh  
         - name: HERMETIC
           value: $(params.hermetic)
         - name: SOURCE_ARTIFACT
@@ -218,7 +218,7 @@ spec:
       - name: IMAGE_APPEND_PLATFORM
         value: "true"
       runAfter:
-      - prefetch-dependencies
+      - run-script
       taskRef:
         params:
         - name: name
