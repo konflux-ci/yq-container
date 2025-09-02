@@ -212,6 +212,9 @@ spec:
       value: $(tasks.prefetch-dependencies.results.CACHI2_ARTIFACT)
     - name: IMAGE_APPEND_PLATFORM
       value: 'true'
+    - name: ADDITIONAL_BASE_IMAGES
+      value:
+        - $(tasks.run-script.results.SCRIPT_RUNNER_IMAGE_REFERENCE)
     runAfter:
     - run-script
     taskRef:
