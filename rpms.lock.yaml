@@ -88,13 +88,13 @@ arches:
     name: libxcrypt-devel
     evr: 4.4.18-3.el9
     sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/o/openssl-devel-3.5.1-5.el9_7.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/o/openssl-devel-3.5.1-7.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 5000924
-    checksum: sha256:c6553fe19d99cd08f29e394142b9c7f76116afa1bc0d49eeb84367be4f569853
+    size: 4996906
+    checksum: sha256:d9e2b9611a355580f0010beaee8aa9ca649b5c00225812c30be340b220a7e158
     name: openssl-devel
-    evr: 1:3.5.1-5.el9_7
-    sourcerpm: openssl-3.5.1-5.el9_7.src.rpm
+    evr: 1:3.5.1-7.el9_7
+    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/b/binutils-2.35.2-67.el9_7.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 5017674
@@ -158,6 +158,20 @@ arches:
     name: make
     evr: 1:4.3-8.el9
     sourcerpm: make-4.3-8.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/o/openssl-3.5.1-7.el9_7.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 1541274
+    checksum: sha256:fa672afb8e31cda4d155929f0e84efba28a925134fd3edacf822802c04e35b8d
+    name: openssl
+    evr: 1:3.5.1-7.el9_7
+    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/o/openssl-libs-3.5.1-7.el9_7.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 2285222
+    checksum: sha256:5a659a77448de7221c58e25cf3474c49f2d80e2b96ef18c8807bd80d82fcf167
+    name: openssl-libs
+    evr: 1:3.5.1-7.el9_7
+    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/pkgconf-1.7.3-10.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 45196
@@ -240,12 +254,12 @@ arches:
     checksum: sha256:a5cc45d6c158b255cda528c496dbb8bc7783acb9898b97a39a1811230e102d7c
     name: make
     evr: 1:4.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/o/openssl-3.5.1-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/o/openssl-3.5.1-7.el9_7.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
-    size: 53367097
-    checksum: sha256:281dbaae5d7b8e71144ce6f54bff89d28b9e3f5e7c650148b79ad2944590521a
+    size: 53417882
+    checksum: sha256:6c9d66a1a6fe1b461d6e030f7b1f286555b83bdafcd14f90cd9d77f17f7177eb
     name: openssl
-    evr: 1:3.5.1-5.el9_7
+    evr: 1:3.5.1-7.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/p/pkgconf-1.7.3-10.el9.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 310904
@@ -339,13 +353,13 @@ arches:
     name: libxcrypt-devel
     evr: 4.4.18-3.el9
     sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/o/openssl-devel-3.5.1-5.el9_7.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/o/openssl-devel-3.5.1-7.el9_7.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 5000798
-    checksum: sha256:011f7987c4881bce9771563d9690115b38f5c5ae1ac3b072096fb85bfdc44a30
+    size: 4996761
+    checksum: sha256:e80d9fa082234c8d941869ccbb7836761f7cc7c15a9211f56e8ad17fc79f4530
     name: openssl-devel
-    evr: 1:3.5.1-5.el9_7
-    sourcerpm: openssl-3.5.1-5.el9_7.src.rpm
+    evr: 1:3.5.1-7.el9_7
+    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/b/binutils-2.35.2-67.el9_7.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 5210492
@@ -409,6 +423,20 @@ arches:
     name: make
     evr: 1:4.3-8.el9
     sourcerpm: make-4.3-8.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/o/openssl-3.5.1-7.el9_7.ppc64le.rpm
+    repoid: ubi-9-for-ppc64le-baseos-rpms
+    size: 1566615
+    checksum: sha256:c5a5284070d6d182a4c93283039a327bf02efd41ab7ab4a748971421773ba605
+    name: openssl
+    evr: 1:3.5.1-7.el9_7
+    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/o/openssl-libs-3.5.1-7.el9_7.ppc64le.rpm
+    repoid: ubi-9-for-ppc64le-baseos-rpms
+    size: 2550625
+    checksum: sha256:99dac7eb92b2cf3e4e2f512378397f59d206795e89bef3bb6891062e334fa65c
+    name: openssl-libs
+    evr: 1:3.5.1-7.el9_7
+    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/p/pkgconf-1.7.3-10.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 46315
@@ -491,12 +519,12 @@ arches:
     checksum: sha256:a5cc45d6c158b255cda528c496dbb8bc7783acb9898b97a39a1811230e102d7c
     name: make
     evr: 1:4.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/o/openssl-3.5.1-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/o/openssl-3.5.1-7.el9_7.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
-    size: 53367097
-    checksum: sha256:281dbaae5d7b8e71144ce6f54bff89d28b9e3f5e7c650148b79ad2944590521a
+    size: 53417882
+    checksum: sha256:6c9d66a1a6fe1b461d6e030f7b1f286555b83bdafcd14f90cd9d77f17f7177eb
     name: openssl
-    evr: 1:3.5.1-5.el9_7
+    evr: 1:3.5.1-7.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/p/pkgconf-1.7.3-10.el9.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
     size: 310904
@@ -611,13 +639,13 @@ arches:
     name: libxcrypt-devel
     evr: 4.4.18-3.el9
     sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/o/openssl-devel-3.5.1-5.el9_7.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/o/openssl-devel-3.5.1-7.el9_7.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 5002155
-    checksum: sha256:46c7865593e17f665a19122629a1731a99c221101cee6c624a15e917be9f688e
+    size: 4997670
+    checksum: sha256:c8d3dd29b240b782a39624632849a1401d4dc74b42e79e435e841cf22d65e853
     name: openssl-devel
-    evr: 1:3.5.1-5.el9_7
-    sourcerpm: openssl-3.5.1-5.el9_7.src.rpm
+    evr: 1:3.5.1-7.el9_7
+    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/b/binutils-2.35.2-67.el9_7.1.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 4757228
@@ -667,6 +695,20 @@ arches:
     name: make
     evr: 1:4.3-8.el9
     sourcerpm: make-4.3-8.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/o/openssl-3.5.1-7.el9_7.s390x.rpm
+    repoid: ubi-9-for-s390x-baseos-rpms
+    size: 1548995
+    checksum: sha256:12d540f2ad34e2c202d47d3edff129acc324012a3946ef57cb1a5db8aad544a2
+    name: openssl
+    evr: 1:3.5.1-7.el9_7
+    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/o/openssl-libs-3.5.1-7.el9_7.s390x.rpm
+    repoid: ubi-9-for-s390x-baseos-rpms
+    size: 2038064
+    checksum: sha256:51f30f99a5529a3413f13d5a2ddf41be7c06fc4528b842d320e6f68bb82e4b20
+    name: openssl-libs
+    evr: 1:3.5.1-7.el9_7
+    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/p/pkgconf-1.7.3-10.el9.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 45258
@@ -743,12 +785,12 @@ arches:
     checksum: sha256:a5cc45d6c158b255cda528c496dbb8bc7783acb9898b97a39a1811230e102d7c
     name: make
     evr: 1:4.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/o/openssl-3.5.1-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/o/openssl-3.5.1-7.el9_7.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
-    size: 53367097
-    checksum: sha256:281dbaae5d7b8e71144ce6f54bff89d28b9e3f5e7c650148b79ad2944590521a
+    size: 53417882
+    checksum: sha256:6c9d66a1a6fe1b461d6e030f7b1f286555b83bdafcd14f90cd9d77f17f7177eb
     name: openssl
-    evr: 1:3.5.1-5.el9_7
+    evr: 1:3.5.1-7.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/p/pkgconf-1.7.3-10.el9.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
     size: 310904
@@ -835,13 +877,13 @@ arches:
     name: libxcrypt-devel
     evr: 4.4.18-3.el9
     sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/o/openssl-devel-3.5.1-5.el9_7.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/o/openssl-devel-3.5.1-7.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 5002144
-    checksum: sha256:222304fa50c4cf6d78e6a2c48c06ea3febec2ff34d7df2521b9da3b24012d40a
+    size: 4998056
+    checksum: sha256:85e1a341adc784f4420742219e182f421655a5482aabe2b274445681747e1730
     name: openssl-devel
-    evr: 1:3.5.1-5.el9_7
-    sourcerpm: openssl-3.5.1-5.el9_7.src.rpm
+    evr: 1:3.5.1-7.el9_7
+    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/b/binutils-2.35.2-67.el9_7.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 4813551
@@ -898,6 +940,20 @@ arches:
     name: make
     evr: 1:4.3-8.el9
     sourcerpm: make-4.3-8.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/o/openssl-3.5.1-7.el9_7.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 1565197
+    checksum: sha256:efc3eb2f303047d5244a0f717a13615820d0de977c62d58bbe6d04ce35df8c6e
+    name: openssl
+    evr: 1:3.5.1-7.el9_7
+    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/o/openssl-libs-3.5.1-7.el9_7.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 2422039
+    checksum: sha256:150962b6c8dbde0e36d11f5e7601130a2d4a9e40aa5e35cd5baa606e9d3f18b7
+    name: openssl-libs
+    evr: 1:3.5.1-7.el9_7
+    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/pkgconf-1.7.3-10.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 45675
@@ -980,12 +1036,12 @@ arches:
     checksum: sha256:a5cc45d6c158b255cda528c496dbb8bc7783acb9898b97a39a1811230e102d7c
     name: make
     evr: 1:4.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/o/openssl-3.5.1-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/o/openssl-3.5.1-7.el9_7.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 53367097
-    checksum: sha256:281dbaae5d7b8e71144ce6f54bff89d28b9e3f5e7c650148b79ad2944590521a
+    size: 53417882
+    checksum: sha256:6c9d66a1a6fe1b461d6e030f7b1f286555b83bdafcd14f90cd9d77f17f7177eb
     name: openssl
-    evr: 1:3.5.1-5.el9_7
+    evr: 1:3.5.1-7.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/p/pkgconf-1.7.3-10.el9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 310904
