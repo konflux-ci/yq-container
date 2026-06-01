@@ -137,34 +137,6 @@ arches:
     name: gettext-libs
     evr: 0.21-8.el9
     sourcerpm: gettext-0.21-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-2.34-270.el9_8.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 1814894
-    checksum: sha256:3c53335370d5ac00dfb094f18f1f1a113452ffc88521ba4af1bb70449149453a
-    name: glibc
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-common-2.34-270.el9_8.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 313725
-    checksum: sha256:b908c768c75770132812c89f216af25377cb3efc69b7bafb19d63de41cac526a
-    name: glibc-common
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-langpack-en-2.34-270.el9_8.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 685204
-    checksum: sha256:4d31741da5a750bf4ba52da7a736d95bcfcd8c455dadc2cab8eebff2cb554c21
-    name: glibc-langpack-en
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-270.el9_8.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 31813
-    checksum: sha256:bc3bc61593f11049120c35d6bb297456577ad31a0db114737305c428c6270932
-    name: glibc-minimal-langpack
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libatomic-11.5.0-14.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 26108
@@ -304,34 +276,34 @@ arches:
     name: glibc-devel
     evr: 2.34-270.el9_8
     sourcerpm: glibc-2.34-270.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/golang-1.26.2-1.el9_8.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/golang-1.26.3-1.el9_8.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 1520715
-    checksum: sha256:7d03678cfefc0606c1f2a0995e7a6ecfb00ba4c65e1919c29f6f4e8efc8abba1
+    size: 1521467
+    checksum: sha256:80fab5cd0be9ac2db4ae64c3888cf83f9291d9262995de3381469c22be4e0ce0
     name: golang
-    evr: 1.26.2-1.el9_8
-    sourcerpm: golang-1.26.2-1.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/golang-bin-1.26.2-1.el9_8.ppc64le.rpm
+    evr: 1.26.3-1.el9_8
+    sourcerpm: golang-1.26.3-1.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/golang-bin-1.26.3-1.el9_8.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 42607131
-    checksum: sha256:d59c05c3603eecc1becf5ccf65e226ecbc8a37b0bf6938c20fc1c53f0e124965
+    size: 42706780
+    checksum: sha256:d3c6c14239d88eb58572fbf2395dc8b276ba3896a170da2285695630f0340969
     name: golang-bin
-    evr: 1.26.2-1.el9_8
-    sourcerpm: golang-1.26.2-1.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/golang-race-1.26.2-1.el9_8.ppc64le.rpm
+    evr: 1.26.3-1.el9_8
+    sourcerpm: golang-1.26.3-1.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/golang-race-1.26.3-1.el9_8.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 1664473
-    checksum: sha256:1a64ceaf90c9611afc087b72a49f73bd31626bed685ccd02c5c0c640e6f5ae52
+    size: 1664582
+    checksum: sha256:33deea20d6002a32b7e625725b06cfe6e5fdb32b32f33c488e11a12531235315
     name: golang-race
-    evr: 1.26.2-1.el9_8
-    sourcerpm: golang-1.26.2-1.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/golang-src-1.26.2-1.el9_8.noarch.rpm
+    evr: 1.26.3-1.el9_8
+    sourcerpm: golang-1.26.3-1.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/golang-src-1.26.3-1.el9_8.noarch.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 12875272
-    checksum: sha256:5f13218b214e9201cd7dae94ba0d1ab56e90c78d7fa7183b9d543cab75339b28
+    size: 12878100
+    checksum: sha256:a7e3d6a3177f13a2694614dd62d77899970784907e28540e9db8e38734f0db50
     name: golang-src
-    evr: 1.26.2-1.el9_8
-    sourcerpm: golang-1.26.2-1.el9_8.src.rpm
+    evr: 1.26.3-1.el9_8
+    sourcerpm: golang-1.26.3-1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-687.12.1.el9_8.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 2828305
@@ -416,34 +388,6 @@ arches:
     name: gettext-libs
     evr: 0.21-8.el9
     sourcerpm: gettext-0.21-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/g/glibc-2.34-270.el9_8.ppc64le.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 2911722
-    checksum: sha256:5c23883112e39d4d3fe62d6d0d6f6c5b9729fe94b62bb551ceaa868a48d880ce
-    name: glibc
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/g/glibc-common-2.34-270.el9_8.ppc64le.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 340448
-    checksum: sha256:e97f806a6d88f05c0556dbe7b079647a85dea5428897ca29ed8d2c962d3e1f0c
-    name: glibc-common
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/g/glibc-langpack-en-2.34-270.el9_8.ppc64le.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 685134
-    checksum: sha256:443885662b2efeae604749b7a67050965c26b482ca8861e802e4a0cea0dd845c
-    name: glibc-langpack-en
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/g/glibc-minimal-langpack-2.34-270.el9_8.ppc64le.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 31837
-    checksum: sha256:af0afca474195ac93e468d61fa316b6dcc5b9d0270a13655fac38298bee320cf
-    name: glibc-minimal-langpack
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/l/libatomic-11.5.0-14.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 25237
@@ -487,12 +431,12 @@ arches:
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
   source:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/g/golang-1.26.2-1.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/g/golang-1.26.3-1.el9_8.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 36486868
-    checksum: sha256:29712614f4909158b541de50270f2a3f432adba6c6e4282439cd6264a9bc10e3
+    size: 36495821
+    checksum: sha256:1ef6ab82f59e1cdaf4ca53817d818a5d43a909b1a6a62fbfde4d1369dc7f1b4f
     name: golang
-    evr: 1.26.2-1.el9_8
+    evr: 1.26.3-1.el9_8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libmpc-1.2.1-4.el9.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 846236
@@ -702,34 +646,6 @@ arches:
     name: elfutils-debuginfod-client
     evr: 0.194-1.el9
     sourcerpm: elfutils-0.194-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/g/glibc-2.34-270.el9_8.s390x.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 1792788
-    checksum: sha256:05e5212d1e2d60dddd0fb1d9977667ce81efd1720903096222cd2dc00e3d7b1d
-    name: glibc
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/g/glibc-common-2.34-270.el9_8.s390x.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 326626
-    checksum: sha256:229c6ee57b67b984aba4885e3cc88eb5f465e2e7771e2c3a09e13dec4498e101
-    name: glibc-common
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/g/glibc-langpack-en-2.34-270.el9_8.s390x.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 635781
-    checksum: sha256:ba5b3a2d0e43d71b9044c1ac8d39c91cf045ff62ef1861f66f0f2652cc69a1ce
-    name: glibc-langpack-en
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/g/glibc-minimal-langpack-2.34-270.el9_8.s390x.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 31817
-    checksum: sha256:88417d0b76b8fa116ccac46a1b9c522056108fec319c659d540dbe5f8fb56b6f
-    name: glibc-minimal-langpack
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/l/libatomic-11.5.0-14.el9.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 23565
@@ -968,34 +884,6 @@ arches:
     name: gettext-libs
     evr: 0.21-8.el9
     sourcerpm: gettext-0.21-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-2.34-270.el9_8.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 2084453
-    checksum: sha256:39e15c1eb3181970e467e4baeaf31673120890b7bb9dd97b311f1c1128b76d16
-    name: glibc
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-common-2.34-270.el9_8.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 322519
-    checksum: sha256:f63ee066c0942641ea683e499087a0e9b4fa80645387871ebef264bd51640567
-    name: glibc-common
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.34-270.el9_8.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 685314
-    checksum: sha256:a6ed1995b04ec6c750b5467e7fe085acca53d63f8ec27dd768de1eb50b9a1dc1
-    name: glibc-langpack-en
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-270.el9_8.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 31845
-    checksum: sha256:1ea08534d2eafe91a9d549277ab1682913f0407c1c4e3e0d89626975aca35fc8
-    name: glibc-minimal-langpack
-    evr: 2.34-270.el9_8
-    sourcerpm: glibc-2.34-270.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 38387
